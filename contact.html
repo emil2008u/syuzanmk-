@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - SYUZAN MK</title>
+    <link href="https://fonts.googleapis.com/css2?family=Monotype+Corsiva&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #2e2e2e; /* Dark background */
+            color: #ffffff;
+            font-family: 'Monotype Corsiva', cursive;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1c1c1c; /* Darker header background */
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Space between nav links */
+        }
+
+        header nav ul li {
+            display: inline;
+        }
+
+        header nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.5em; /* Increased font size for links */
+        }
+
+        header nav ul li a:hover {
+            color: #000000; /* Black color on hover */
+        }
+
+        .content {
+            margin: 80px 20px 20px; /* Adjust margin for fixed header */
+            text-align: center;
+        }
+
+        .links a {
+            display: block;
+            width: 100%;
+            max-width: 600px; /* Limit maximum width */
+            margin: 10px auto; /* Center links and add vertical spacing */
+            padding: 15px;
+            color: #ffffff; /* White text */
+            background-color: #333333; /* Dark background for buttons */
+            text-align: center;
+            text-decoration: none;
+            border-radius: 8px; /* Rounded corners */
+            transition: background-color 0.3s;
+            font-size: 1.5em; /* Increased font size for links */
+        }
+
+        .links a:hover {
+            background-color: #555555; /* Lighter dark color on hover */
+        }
+
+        .contacts ul {
+            list-style-type: none; /* Remove list markers */
+            padding: 0;
+            margin: 0;
+        }
+
+        .contacts li {
+            margin-bottom: 10px; /* Space between list items */
+            font-size: 1.5em; /* Increased font size for list */
+        }
+
+        .contacts li a {
+            color: #ffffff; /* White text */
+            text-decoration: none; /* Remove underline */
+        }
+
+        .contacts li a:hover {
+            color: #000000; /* Black color on hover */
+            text-decoration: underline; /* Underline on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главное</a></li>
+                <li><a href="services.html">Услуги</a></li>
+                 <li><a href="additional.html">Дополнительно</a></li>
+                <li><a href="portfolio.html">Портфолио</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact">
+        <div class="content">
+            <h1>Контакты</h1>
+            <p class="links">
+                <a href="https://www.instagram.com/syuzanmk" target="_blank">Instagram: syuzanmk</a>
+                <a href="https://youtu.be/VEXgcyHAPUI?fbclid=PAZXh0bgNhZW0CMTEAAabWV63jFs2jXDWC1vo2JqsgOYkNzHXZaitnT8G3jNqKFezXuwsC7ZYXRpQ_aem_rHM-MkU36-AsObRuyGPGYg" target="_blank">Watch on YouTube</a>
+                <a href="https://t.me/vstilesyu" target="_blank">Присоединиться к чату в Telegram</a>
+            </p>
+            <div class="contacts">
+                <ul>
+                    <li>Email: <a href="mailto:syuzan.mkrtchyan@gmail.com">syuzan.mkrtchyan@gmail.com</a></li>
+                    <li>Телефон: <a href="tel:+79673030110">+7 967 303 0110</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

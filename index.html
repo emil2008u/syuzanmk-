@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYUZAN MK</title>
+    <link href="https://fonts.googleapis.com/css2?family=Monotype+Corsiva&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #2e2e2e; /* Dark background */
+            color: #ffffff;
+            font-family: 'Monotype Corsiva', cursive;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1c1c1c; /* Darker header background */
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Space between nav links */
+        }
+
+        header nav ul li {
+            display: inline;
+        }
+
+        header nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.5em; /* Increased font size for links */
+        }
+
+        header nav ul li a:hover {
+            color: #000000; /* Black color on hover */
+        }
+
+        .content {
+            margin: 80px 20px 20px; /* Adjust margin for fixed header */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 20px; /* Add padding to avoid content touching edges */
+        }
+
+        .text {
+            width: 50%;
+            margin-bottom: 20px;
+        }
+
+        .text h1 {
+            font-size: 3em; /* Increased font size for the heading */
+            margin: 0; /* Remove default margin */
+        }
+
+        .text p {
+            font-size: 1.5em; /* Enlarged font size for the text */
+        }
+
+        .image {
+            width: 50%;
+            text-align: center;
+        }
+
+        .image img {
+            max-width: 100%; /* Prevent image from overflowing */
+            height: auto; /* Maintain image proportions */
+        }
+
+        blockquote {
+            text-align: center;
+            font-size: 1.5em;
+            color: #d4af37; /* Golden color */
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главное</a></li>
+                <li><a href="services.html">Услуги</a></li>
+                <li><a href="additional.html">Дополнительно</a></li>
+                <li><a href="portfolio.html">Портфолио</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="content">
+            <div class="text">
+                <h1>SYUZAN MK</h1>
+                <p>Приветствую Вас!<br>Я - Сюзан Мкртчян,<br>cтилист-имиджмейкер, художник, модельер.<br>Я - киноман и в работе с клиентами помогаю им создать своё кино, где они - главные герои.<br>А какой фильм мы создадим вместе?<br>Наша совместная работа - это погружение в ваш внутренний мир сквозь призму архетипов и жизненных сценариев.<br>Идеальные декорации, образы, музыка, ароматы - всё, чтобы Вы каждый день получали удовольствие от себя и своего имиджа.</p>
+            </div>
+            <div class="image">
+                <img src="https://static.wixstatic.com/media/c19fe6_a9f3c7b370824e2d97b195af84c1c059~mv2.jpg/v1/fill/w_440,h_549,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/CnOVqsbLZ6I_edited.jpg" alt="Your Image">
+            </div>
+        </div>
+        <blockquote>„Посмотрите, как входит в комнату женщина, притягивающая все взгляды. Как она идет, как она садится, какие жесты она делает в разговоре. По классическим меркам она может считаться вполне уродливой, но, несмотря на это, в ее фигуре, ее поведении, ее жестах есть что-то, что составляет стиль и что очень важно именно потому, что все это не какие-то внешние украшения, а принадлежит самому ее существу.“ — Коко Шанель</blockquote>
+    </section>
+</body>
+</html>

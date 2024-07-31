@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Об услугах - SYUZAN MK</title>
+    <link href="https://fonts.googleapis.com/css2?family=Monotype+Corsiva&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #2e2e2e; /* Темный фон для основной части страницы */
+            color: #ffffff; /* Белый текст */
+            font-family: 'Monotype Corsiva', cursive;
+            font-size: 20px; /* Размер шрифта */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1c1c1c; /* Темный фон для шапки */
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Пробел между ссылками */
+            font-size: 24px; /* Размер шрифта для ссылок в навигации */
+        }
+
+        header nav ul li {
+            display: inline;
+        }
+
+        header nav ul li a {
+            color: #ffffff; /* Белые ссылки */
+            text-decoration: none;
+        }
+
+        header nav ul li a:hover {
+            text-decoration: underline; /* Подчеркивание ссылок при наведении */
+        }
+
+        .content {
+            margin: 80px 20px 20px; /* Отступы для фиксированной шапки */
+            text-align: center;
+        }
+
+        .section-content {
+            display: flex;
+            flex-direction: column;
+            gap: 40px; /* Пробел между секциями */
+            align-items: center;
+        }
+
+        .image-text {
+            display: flex;
+            align-items: center;
+            gap: 40px; /* Пробел между текстом и изображениями */
+            flex-wrap: wrap; /* Обеспечивает перенос блоков, если они не помещаются */
+        }
+
+        .image-text img {
+            max-width: 100%; /* Адаптивная ширина изображений */
+            height: auto;
+            border-radius: 8px; /* Скругленные углы изображений */
+        }
+
+        .text-block {
+            max-width: 600px; /* Ширина текстового блока */
+            text-align: center; /* Выравнивание текста по центру */
+            font-size: 24px; /* Размер шрифта для текстовых блоков */
+            margin: 0 auto; /* Центрирование текстового блока */
+        }
+
+        h1, h2 {
+            color: #ffffff; /* Белый цвет заголовков */
+            font-size: 28px; /* Размер шрифта для заголовков */
+            text-align: center; /* Выравнивание заголовков по центру */
+            margin: 60px 0; /* Отступы для заголовков */
+        }
+
+        .section-content h2 {
+            margin-top: 60px; /* Больше пространства сверху для заголовков секций */
+        }
+
+        .text-block strong {
+            font-size: 30px; /* Больший размер шрифта для заголовков внутри текстовых блоков */
+            display: block; /* Обеспечить отображение заголовков как блочных элементов */
+            margin-bottom: 20px; /* Пространство под заголовками секций */
+        }
+
+        blockquote {
+            text-align: center;
+            font-size: 1.5em;
+            color: #d4af37; /* Золотой цвет */
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главное</a></li>
+                <li><a href="services.html">Услуги</a></li>
+                <li><a href="additional.html">Дополнительно</a></li>
+                <li><a href="portfolio.html">Портфолио</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="content">
+        <h2>Об услугах</h2>
+        <div class="section-content">
+            <!-- Первый блок с изображением и текстом -->
+            <div class="image-text">
+                <img src="https://static.wixstatic.com/media/c19fe6_85a6de497e184f56bb4b0d73249301fc~mv2.jpg/v1/fill/w_394,h_390,fp_0.71_0.15,q_80,usm_0.66_1.00_0.01,enc_auto/c19fe6_85a6de497e184f56bb4b0d73249301fc~mv2.jpg" alt="Image 1">
+                <p class="text-block"><strong>КОНСУЛЬТАЦИЯ</strong><br>Первый и важнейший этап. Во время консультации мы с вами знакомимся, обсуждаем ваш запрос и только после - принимаем решение о дальнейшей работе.<br>Консультация всегда бесплатна, это может быть как встреча за чашкой кофе, так и звонок.</p>
+            </div>
+
+            <!-- Второй блок с изображением и текстом -->
+            <div class="image-text">
+                <p class="text-block"><strong>ШОПИНГ</strong><br>Ответы на часто задаваемые вопросы<br>Шопинг можно провести с любым доступным вам бюджетом и даже без него. Во время него я даю вам методику, по которой вы сможете проводить шопинг самостоятельно.<br>Вещи не обязательно покупать сразу. Вы можете примерить всё, а позже купить/заказать онлайн всё, что вам понравилось. Кроме того, если вы передумаете, их можно вернуть в магазин.<br>Шопинг будет плодотворнее после разбора гардероба.</p>
+                <img src="https://static.wixstatic.com/media/c19fe6_a32b19f923d64ec1bb74d6ced47324bb~mv2.jpg/v1/fill/w_393,h_390,fp_0.52_0.18,q_80,usm_0.66_1.00_0.01,enc_auto/c19fe6_a32b19f923d64ec1bb74d6ced47324bb~mv2.jpg" alt="Image 2">
+            </div>
+
+            <!-- Третий блок с изображением и текстом -->
+            <div class="image-text">
+                <img src="https://static.wixstatic.com/media/c19fe6_1398860bccb94581adb6b2c672ee092d~mv2.jpg/v1/fill/w_354,h_351,fp_0.50_0.50,lg_1,q_80,enc_auto/c19fe6_1398860bccb94581adb6b2c672ee092d~mv2.jpg" alt="Image 3">
+                <p class="text-block"><strong>ЧТО В ИТОГЕ?</strong><br>Вы навсегда забудете о такой проблеме, как "нечего надеть" и прочувствуете свой личный стиль.<br>Вы всегда будете чувствовать себя уместно относительно контекста, забудете ощущение неловкости, стеснения. Всё, что останется - ощущение удовольствия.<br>Вы получите гардероб "на миллион" - функциональный, качественный и эстетичный.<br>Окружающие будут делать вам комплименты на улице и оборачиваться вслед вашей харизме.</p>
+            </div>
+
+            <!-- Четвертый блок с изображением и текстом -->
+            <div class="image-text">
+                <blockquote>"Мода проходит, стиль остаётся." — Коко Шанель</blockquote>
+                <img src="https://static.wixstatic.com/media/c19fe6_db741556113a4a9dbdea76d2a5c6a41e~mv2.jpg/v1/fill/w_411,h_320,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c3d10d6f7cbfa5eb8c8c821174f6e8c7.jpg" alt="Image 4">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

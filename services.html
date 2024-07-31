@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги - SYUZAN MK</title>
+    <link href="https://fonts.googleapis.com/css2?family=Monotype+Corsiva&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #2e2e2e; /* Dark background */
+            color: #ffffff; /* White text */
+            font-family: 'Monotype Corsiva', cursive;
+            font-size: 20px; /* Increased font size */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1c1c1c; /* Darker header background */
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Increased space between nav links */
+            font-size: 24px; /* Increased font size for nav links */
+        }
+
+        header nav ul li {
+            display: inline;
+        }
+
+        header nav ul li a {
+            color: #ffffff; /* White links */
+            text-decoration: none;
+        }
+
+        header nav ul li a:hover {
+            text-decoration: underline; /* Underline links on hover */
+        }
+
+        .content {
+            margin: 80px 20px 20px; /* Adjust margin to account for fixed header */
+            text-align: center;
+        }
+
+        .services-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px; /* Increased space between buttons */
+            align-items: center;
+        }
+
+        .services-list a {
+            display: block;
+            width: 100%; /* Make buttons stretch to full width */
+            max-width: 500px; /* Limit maximum width */
+            padding: 15px; /* Increased padding for buttons */
+            color: #ffffff; /* White text */
+            background-color: #333333; /* Dark background for buttons */
+            text-align: center;
+            text-decoration: none;
+            border-radius: 8px; /* Increased border-radius for buttons */
+            transition: background-color 0.3s;
+            font-size: 24px; /* Increased font size for buttons */
+        }
+
+        .services-list a:hover {
+            background-color: #555555; /* Lighter dark color on hover */
+        }
+
+        h1 {
+            color: #ffffff; /* White heading */
+            font-size: 28px; /* Increased font size for heading */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главное</a></li>
+                <li><a href="services.html">Услуги</a></li>
+                <li><a href="additional.html">Дополнительно</a></li>
+                <li><a href="portfolio.html">Портфолио</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="services">
+        <div class="content">
+            <h1>Услуги</h1>
+            <div class="services-list">
+                <a href="services1.html">Разбор гардероба</a>
+                <a href="services2.html">Шопинг</a>
+                <a href="services3.html">Консультация по стилю</a>
+                <a href="services4.html">Мобильная съёмка | Контент</a>
+                <a href="services5.html">Капсульный гардероб</a>
+                <a href="services6.html">Сбор чемодана</a>
+                <a href="services7.html">Образ на мероприятие</a>
+                <a href="services8.html">Стилизация съёмки</a>
+                <a href="services9.html">Стилист на связи</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

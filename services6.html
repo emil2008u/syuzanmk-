@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сервис 6 - Сбор чемодана</title>
+    <link href="https://fonts.googleapis.com/css2?family=Monotype+Corsiva&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #2e2e2e;
+            color: #ffffff;
+            font-family: 'Monotype Corsiva', cursive;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center; /* Центрирование меню */
+        }
+
+        header nav ul li {
+            margin: 0 10px;
+        }
+
+        header nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.5em; /* Размер текста */
+            padding: 10px 20px;
+            background-color: #444;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        header nav ul li a:hover {
+            background-color: #555;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .text {
+            flex: 1;
+            padding: 20px;
+            font-size: 1.5em; /* Размер текста */
+        }
+
+        .text h1 {
+            font-size: 2.5em; /* Размер заголовка */
+        }
+
+        .image {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .image img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .back-links {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .back-links a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1.5em; /* Размер текста */
+        }
+
+        .back-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главное</a></li>
+                <li><a href="services.html">Услуги</a></li>
+                <li><a href="additional.html">Дополнительно</a></li>
+                <li><a href="portfolio.html">Портфолио</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="text">
+            <h1>Сбор чемодана</h1>
+            <p>
+                Помощь в сборах на отдых, в командировку и т.д.<br><br>
+                • Установочная консультация<br>
+                • Создание капсулы из ваших вещей<br>
+                • Создание шопинг-листа при необходимости<br>
+                • Создание образов<br>
+                • Рекомендации по упаковке вещей<br><br>
+                Услуга предоставляется онлайн и оффлайн<br><br>
+                от 5000₽ / 30000֏
+            </p>
+        </div>
+        <div class="image">
+            <img src="https://missfranc.com.au/cdn/shop/articles/80354b051c59248d413facd5f5714a3e-e1685410906469_400x400_crop_center.jpg?v=1687936729" alt="Сбор чемодана">
+        </div>
+    </div>
+</body>
+</html>
